@@ -19,7 +19,7 @@ Therefore, rewrite some functions with numba.njit to speed up the analysis
 - Add bootstrapping for confident intervals
 
 ## external dependency - rvlib
-conda config --add channels conda-forge
-conda install rvlib
+- conda config --add channels conda-forge
+- conda install rvlib
 
 The package due to change, and may update!
