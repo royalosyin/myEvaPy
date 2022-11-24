@@ -22,4 +22,7 @@ Therefore, rewrite some functions with numba.njit to speed up the analysis
 - conda config --add channels conda-forge
 - conda install rvlib
 
+## references
+https://github.com/OpenHydrology/lmoments3
+
 The package due to change, and may update!
