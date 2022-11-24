@@ -6,7 +6,7 @@ Generally, the lmoments3 is used to carry out extreme value analysis.
 It works perfect for single grid.
 
 But when it is applied to xarray + dask with million grids, it takes time.
-Therefore, rewritten some functions with numba.njit to speed up the analysis
+Therefore, rewrite some functions with numba.njit to speed up the analysis
 
 ## supported distributions
 - gamma
