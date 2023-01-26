@@ -521,6 +521,7 @@ def quastn(prob):
             r = 1 - prob
         if r <= 0:
             print("F Value Invalid")
+            return np.nan
         r = np.sqrt(-np.log(r))
         if r > split2:
             r = r - split2
